@@ -7,7 +7,7 @@ interface FileProps {
 const File = ({name}: FileProps) => {
   return (
     <li data-testid="node">
-      <div>⎻📄{name}</div>
+      <div>📄{name}</div>
     </li>
   )
 }

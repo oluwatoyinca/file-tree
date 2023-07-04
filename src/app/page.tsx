@@ -1,6 +1,4 @@
 "use client"
-import Image from 'next/image'
-// import styles from './page.module.css'
 import FileTree from './components/FileTree'
 import { Node } from "./types"
 import { VisibilityProvider } from "../app/components/VisibilityProvider"

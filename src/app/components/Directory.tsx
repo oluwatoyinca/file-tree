@@ -19,7 +19,7 @@ const Directory = ({name, children, filePath}: DirectoryProps) => {
   return (
     <li data-testid="node">
       <div data-testid="dir-expand" onClick={toggleShowChildren}>
-        ⎻{visible[filePath] ? <>📂</> : <>📁</>}{name}
+        {visible[filePath] ? <>📂</> : <>📁</>}{name}
       </div>
       <ul>
       {visible[filePath] && <Children items={children} path={filePath} />}
